@@ -8,7 +8,7 @@ export default () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div className="container">
-    <a class="navbar-brand" href="#">Project</a>
+    <Link to='/' class="navbar-brand">Project</Link>
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
         
