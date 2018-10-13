@@ -13,6 +13,7 @@ export default () => {
         <ul class="navbar-nav mr-auto">
         
         </ul>
+        <SignOutLinks />
         <SignedInLinks />
     </div>
     </div>

@@ -13,7 +13,7 @@ export default () => {
       </li>
 
       <li class="nav-item active">
-        <NavLink to='/' class="nav-link" > JS </NavLink>
+        <NavLink to='/' class="nav-link" > <span class="badge badge-pill badge-warning">JS</span></NavLink>
       </li>   
     </ul>
 
