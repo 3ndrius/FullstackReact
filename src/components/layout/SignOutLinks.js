@@ -5,11 +5,11 @@ export default () => {
     <div>
      <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <NavLink to='/' className="nav-link" >SignUp </NavLink>
+        <NavLink to='/signup' className="nav-link" >SignUp </NavLink>
       </li>
 
       <li className="nav-item active">
-        <NavLink to='/' className="nav-link" > Login </NavLink>
+        <NavLink to='/signin' className="nav-link" > Login </NavLink>
       </li>
 
     </ul>

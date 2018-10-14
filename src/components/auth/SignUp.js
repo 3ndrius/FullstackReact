@@ -20,7 +20,7 @@ class SignUp extends Component {
   render() {
     return (
       <div className="container">
-        <form className="p-5" onSubmit={this.handleSubmit} >
+        <form className="pt-5 pb-5" onSubmit={this.handleSubmit} >
         <h2 className="text-center">Sign up </h2>
             <div className="form-group">
                 <label htmlFor="exampleInputEmail1">Email address</label>

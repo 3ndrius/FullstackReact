@@ -18,7 +18,7 @@ class CreateProject extends Component {
   render() {
     return (
       <div className="container">
-        <form className="p-5" onSubmit={this.handleSubmit} >
+        <form className="pt-5 pb-5" onSubmit={this.handleSubmit} >
         <h2 className="text-center">Create project </h2>
             <div className="form-group">
                 <label htmlFor="title">Project name</label>

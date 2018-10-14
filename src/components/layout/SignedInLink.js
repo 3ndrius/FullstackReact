@@ -5,7 +5,7 @@ export default () => {
     <div>
      <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <NavLink to='/' className="nav-link" >New Project </NavLink>
+        <NavLink to='/create' className="nav-link" >New Project </NavLink>
       </li>
 
       <li className="nav-item active">
