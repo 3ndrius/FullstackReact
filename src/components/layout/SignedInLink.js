@@ -3,17 +3,17 @@ import { NavLink } from 'react-router-dom';
 export default () => {
   return (
     <div>
-     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <NavLink to='/' class="nav-link" >New Project </NavLink>
+     <ul className="navbar-nav mr-auto">
+      <li className="nav-item active">
+        <NavLink to='/' className="nav-link" >New Project </NavLink>
       </li>
 
-      <li class="nav-item active">
-        <NavLink to='/' class="nav-link" >Log Out </NavLink>
+      <li className="nav-item active">
+        <NavLink to='/' className="nav-link" >Log Out </NavLink>
       </li>
 
-      <li class="nav-item active">
-        <NavLink to='/' class="nav-link" > <span class="badge badge-pill badge-warning">JS</span></NavLink>
+      <li className="nav-item active">
+        <NavLink to='/' className="nav-link" > <span className="badge badge-pill badge-warning">JS</span></NavLink>
       </li>   
     </ul>
 

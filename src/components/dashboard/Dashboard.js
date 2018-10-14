@@ -8,7 +8,7 @@ class Dashboard extends Component {
         return (
             <div className="dashboard container"> 
                 <div className="row">
-                    <div className="col-sm-12 col-md-6 mt-5">
+                    <div className="col-sm-12 col-md-6">
                         <ProjectList />
                     </div>
                     <div className="col-md-offset-1 mt-5 col-sm-12 col-md-5">
