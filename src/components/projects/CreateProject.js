@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux';
+import { createProject } from './../../store/actions/projectActions';
 
 class CreateProject extends Component {
     state = {
@@ -13,7 +15,8 @@ class CreateProject extends Component {
     }
     handleSubmit = (e) =>{
         e.preventDefault();
-        console.log(this.state);
+        console.log();
+        this.props.createProject(this.state);
     }
   render() {
     return (
@@ -27,7 +30,7 @@ class CreateProject extends Component {
             </div>
             <div className="form-group">
       <label htmlFor="content">Content</label>
-      <textarea className="form-control" id="content" rows="5"></textarea>
+      <textarea className="form-control" id="content" rows="5" onChange={this.handleChange}></textarea>
     </div>
             <button className="btn btn-primary">Create</button>           
         </form>
@@ -35,4 +38,10 @@ class CreateProject extends Component {
     )
   }
 }
-export default CreateProject;
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        createProject: (project) => dispatch(createProject(project))
+    }
+}
+export default connect(null, mapDispatchToProps)(CreateProject);

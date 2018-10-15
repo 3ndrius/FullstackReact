@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default () => {
+export default ({project}) => {
   return (
         <div className="card border-primary mb-3">
         
         <div className="card-body">
-            <h4 className="card-title">Primary card title</h4>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h4 className="card-title">{project.title}</h4>
+            <p className="card-text">Posted by NetAnonim</p>
         </div>
         <div className="card-header">15 July 2018</div>
         </div>
