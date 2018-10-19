@@ -12,11 +12,11 @@ const SignnedInLink = (props) => {
       </li>
 
       <li className="nav-item active">
-        <a onClick={props.signOut} className="nav-link" >Log Out </a>
+        <a href="/" onClick={props.signOut} className="nav-link" >Log Out </a>
       </li>
 
       <li className="nav-item active">
-        <NavLink to='/' className="nav-link" > <span className="badge badge-pill badge-warning">JS</span></NavLink>
+        <NavLink to='/' className="nav-link" > <span className="badge badge-pill badge-warning">{props.profile.initials}aa</span></NavLink>
       </li>   
     </ul>
 
