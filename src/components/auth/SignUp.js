@@ -47,7 +47,7 @@ class SignUp extends Component {
             </div> 
             <button className="btn btn-primary" >Sign Up</button>           
         </form>
-        {authError ? <p class="alert alert-danger">{authError} </p>: null }
+        {authError ? <p className="alert alert-danger">{authError} </p>: null }
       </div>
     )
   }
