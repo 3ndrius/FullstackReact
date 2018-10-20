@@ -6,8 +6,8 @@ class SignUp extends Component {
     state = {
         email: '',
         password: '',
-        name: '',
-        secondName: ''
+        firstName: '',
+        lastName: ''
     }
     handleChange = (e) => {
         console.log(e.target.value);
@@ -38,12 +38,12 @@ class SignUp extends Component {
 
              <div className="form-group">
                 <label htmlFor="exampleInputEmail1">Name</label>
-                <input type="text" className="form-control" id="name" aria-describedby="namehelp" placeholder="Enter name" onChange={this.handleChange} />
+                <input type="text" className="form-control" id="firstName" aria-describedby="firstName" placeholder="Enter name" onChange={this.handleChange} />
             </div> 
 
              <div className="form-group">
-                <label htmlFor="exampleInputEmail1">SecondName</label>
-                <input type="text" className="form-control" id="secondName" aria-describedby="secondNamehelp" placeholder="Enter second-name" onChange={this.handleChange} />
+                <label htmlFor="exampleInputEmail1">LastName</label>
+                <input type="text" className="form-control" id="lastName" aria-describedby="lastName" placeholder="Enter second-name" onChange={this.handleChange} />
             </div> 
             <button className="btn btn-primary" >Sign Up</button>           
         </form>
