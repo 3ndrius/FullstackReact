@@ -6,7 +6,7 @@ export default ({project}) => {
         
         <div className="card-body">
             <h4 className="card-title">{project.title}</h4>
-            <p className="card-text">Posted by NetAnonim</p>
+            <p className="card-text">{project.authorFirstName} {project.authorLastName}</p>
         </div>
         <div className="card-header">15 July 2018</div>
         </div>
