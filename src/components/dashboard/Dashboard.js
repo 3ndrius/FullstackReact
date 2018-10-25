@@ -6,7 +6,6 @@ import { firestoreConnect } from 'react-redux-firebase'
 import { compose } from 'redux'
 import { Redirect } from 'react-router-dom'
 
-
 class Dashboard extends Component {
 
     render() {
@@ -27,20 +26,18 @@ class Dashboard extends Component {
         );
     }
 }
-
 const mapStateToProps = (state) => {
     
     return {
         projects: state.firestore.ordered.projects,
         auth: state.firebase.auth,
         notifications: state.firestore.ordered.notifications
-    }
+   }
 }
-
 export default compose(
     connect(mapStateToProps),
     firestoreConnect([
-        {collection: 'projects'},
-        {collection: 'notifications', limit: 3 }
+        {collection: 'projects', orderBy: ['createdAt', 'desc']},
+        {collection: 'notifications', limit: 3, orderBy: ['time', 'desc'] }
     ])
 )(Dashboard);
