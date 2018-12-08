@@ -7,6 +7,8 @@
 - (RWD - mobile, tablet, desktop) / flex/ bootstrap-grid
 - firebase/firestore/functions.
 
+Usage: Registration/Signin/ create project/delete project / notification
+
 # [DEMO](https://cosmicjs.com/apps/react-book-app/demo)
 ![Full](https://github.com/3ndrius/FullstackReact/blob/master/public/full-stack-react-redux.netlify.com_%20(1).jpg?raw=true)
 
