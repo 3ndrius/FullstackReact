@@ -1,3 +1,20 @@
+
+# Project Planer
+![Project](https://github.com/3ndrius/FullstackReact/blob/master/public/full-stack-react-redux.netlify.com_%20(2).jpg?raw=true)
+- ReactJS & Redux/Redux-thunk/
+- HTML & CSS/Bootstrap 4
+- AdobeXD & VS Code
+- (RWD - mobile, tablet, desktop) / flex/ bootstrap-grid
+- firebase/firestore/functions.
+
+# [DEMO](https://cosmicjs.com/apps/react-book-app/demo)
+![Full](https://github.com/3ndrius/FullstackReact/blob/master/public/full-stack-react-redux.netlify.com_%20(1).jpg?raw=true)
+
+<hr/>
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
