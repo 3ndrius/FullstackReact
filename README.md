@@ -9,7 +9,7 @@
 
 Usage: Registration/Signin/ create project/delete project / notification
 
-# [DEMO](https://cosmicjs.com/apps/react-book-app/demo)
+# [DEMO](https://full-stack-react-redux.netlify.com/)
 ![Full](https://github.com/3ndrius/FullstackReact/blob/master/public/full-stack-react-redux.netlify.com_%20(1).jpg?raw=true)
 
 <hr/>
